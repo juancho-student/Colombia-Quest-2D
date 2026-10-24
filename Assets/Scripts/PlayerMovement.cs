@@ -28,11 +28,15 @@ public class PlayerMovement : MonoBehaviour
     // Indicates whether the player is currently touching the ground.
     private bool isGrounded;
 
+    private Animator animator;
+
+
     // Called once when the script is initialized.
     void Start()
     {
         // Gets the Rigidbody2D component attached to the player.
         rb2D = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     // Called once per frame.
@@ -43,6 +47,10 @@ public class PlayerMovement : MonoBehaviour
 
         // Checks whether the player is touching the ground.
         UpdateGroundedState();
+
+        animator.SetFloat("Horizontal", Mathf.Abs(horizontalMovement));
+
+        animator.SetBool("IsGrounded", isGrounded);
     }
 
     // Called at fixed intervals to handle physics calculations.
@@ -69,6 +77,8 @@ public class PlayerMovement : MonoBehaviour
         // or if the player is not touching the ground.
         if (!context.performed || !isGrounded)
             return;
+
+        animator.SetTrigger("Jump");
 
         // Applies upward velocity to make the player jump.
         rb2D.linearVelocity = new Vector2(
