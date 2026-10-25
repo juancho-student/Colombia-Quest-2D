@@ -1,6 +1,9 @@
+using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -30,6 +33,16 @@ public class PlayerMovement : MonoBehaviour
 
     private Animator animator;
 
+    private int coins;
+
+    public TMP_Text textCoins;
+
+    public AudioSource audioSource;
+
+    public AudioClip coinClip;
+
+    public AudioClip barrelClip;
+
 
     // Called once when the script is initialized.
     void Start()
@@ -51,6 +64,43 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Horizontal", Mathf.Abs(horizontalMovement));
 
         animator.SetBool("IsGrounded", isGrounded);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        // Checks if the player has collided with an object tagged as "Enemy".
+        if (collision.transform.CompareTag("Coin"))
+        {
+            audioSource.PlayOneShot(coinClip); // Plays the coin collection sound effect.
+            Destroy(collision.gameObject); // Destroys the coin object upon collision.
+            coins++; // Increments the coin count.
+            textCoins.text = coins.ToString();
+        }
+
+        if (collision.transform.CompareTag("Spikes"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Reloads the current scene upon collision with spikes.
+        }
+
+        if (collision.transform.CompareTag("Barrel"))
+        {
+            audioSource.PlayOneShot(barrelClip); // Plays the barrel destruction sound effect.
+            Vector2 knockbackDirection = (rb2D.position - (Vector2)collision.transform.position).normalized; // Calculates the direction of knockback.
+            rb2D.linearVelocity= Vector2.zero; // Resets the player's velocity to zero.
+            rb2D.AddForce(knockbackDirection * 3, ForceMode2D.Impulse); // Applies a knockback force to the player.
+
+            BoxCollider2D[] colliders= collision.gameObject.GetComponents<BoxCollider2D>(); // Gets all BoxCollider2D components on the barrel object. 
+
+            foreach (BoxCollider2D col in colliders)
+            {
+                col.enabled = false; // Disables each BoxCollider2D component on the barrel object.
+            }
+
+            collision.GetComponent<Animator>().enabled = true;
+            Destroy(collision.gameObject, 0.5f); // Destroys the barrel object after a short delay.
+
+
+        }
     }
 
     // Called at fixed intervals to handle physics calculations.
