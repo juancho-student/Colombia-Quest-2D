@@ -48,7 +48,7 @@ This version provides the foundation for future improvements, additional levels,
 Juan Camilo Molina
 
 ---
-**ColombiaQuest v01 — The adventure begins in Colombia!**/>
+**ColombiaQuest v01 — The adventure begins in Colombia!**
 
 
 
@@ -103,4 +103,4 @@ Esta versión constituye la base para futuras mejoras, nuevos niveles y funciona
 Juan Camilo Molina
 
 ---
-**ColombiaQuest v01 — ¡La aventura comienza en Colombia!**/>
+**ColombiaQuest v01 — ¡La aventura comienza en Colombia!**
