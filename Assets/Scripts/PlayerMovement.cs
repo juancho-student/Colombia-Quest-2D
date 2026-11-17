@@ -46,6 +46,8 @@ public class PlayerMovement : MonoBehaviour
 
     private bool movementEnabled = true;
 
+    private bool knockbackActive;
+
     // SPIKES CONTACT CONTROL
     private readonly HashSet<Collider2D> spikeContacts =
         new HashSet<Collider2D>();
@@ -165,6 +167,29 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (!movementEnabled)
+            return;
+
+        ConquerorQuiz conquerorQuiz =
+            collision.gameObject.GetComponent<ConquerorQuiz>();
+
+        if (conquerorQuiz == null)
+            return;
+
+        // Check that the player lands on top of the enemy.
+        bool landingOnTop =
+            transform.position.y > collision.transform.position.y &&
+            rb2D.linearVelocity.y <= 0.1f;
+
+        if (landingOnTop)
+        {
+            conquerorQuiz.ActivateQuiz();
+        }
+    }
+
+
     // COLLISION EXIT: RESET SPIKES CONTACT
     private void OnTriggerExit2D(Collider2D collision)
     {
@@ -178,6 +203,9 @@ public class PlayerMovement : MonoBehaviour
     // PHYSICS UPDATE
     void FixedUpdate()
     {
+        if (knockbackActive)
+            return;
+
         if (!movementEnabled)
         {
             rb2D.linearVelocity = Vector2.zero;
@@ -305,6 +333,17 @@ public class PlayerMovement : MonoBehaviour
             0,
             groundLayer
         );
+
+        if (isGrounded)
+        {
+            ConquerorQuiz[] conquerors =
+            FindObjectsByType<ConquerorQuiz>();
+
+            foreach (ConquerorQuiz conqueror in conquerors)
+            {
+                conqueror.ResetActivation();
+            }
+        }
     }
 
 
@@ -328,5 +367,25 @@ public class PlayerMovement : MonoBehaviour
 
             transform.localScale = scale;
         }
+    }
+
+    public void ApplyConquerorKnockback(Vector2 force)
+    {
+        knockbackActive = true;
+
+        horizontalMovement = 0f;
+
+        rb2D.linearVelocity = Vector2.zero;
+
+        rb2D.AddForce(force, ForceMode2D.Impulse);
+
+        StartCoroutine(EndKnockback());
+    }
+
+    private System.Collections.IEnumerator EndKnockback()
+    {
+        yield return new WaitForSeconds(0.5f);
+
+        knockbackActive = false;
     }
 }

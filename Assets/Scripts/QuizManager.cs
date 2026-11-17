@@ -19,8 +19,12 @@ public class QuizManager : MonoBehaviour
 
     private bool correctAnswer;
     private GameObject currentObstacle;
+    private ConquerorHealth currentConqueror;
+
+    private ConquerorPatrol currentConquerorPatrol;
 
     private bool quizActive;
+    private bool isConquerorQuiz;
 
     void Start()
     {
@@ -35,6 +39,7 @@ public class QuizManager : MonoBehaviour
         );
     }
 
+    // HISTORICAL OBSTACLE QUIZ
     public void StartQuiz(
         string question,
         bool answer,
@@ -44,10 +49,44 @@ public class QuizManager : MonoBehaviour
             return;
 
         quizActive = true;
+        isConquerorQuiz = false;
 
         currentObstacle = obstacle;
+        currentConqueror = null;
         correctAnswer = answer;
 
+        ShowQuestion(question);
+    }
+
+    // CONQUEROR QUIZ
+    public void StartConquerorQuiz(
+        string question,
+        bool answer,
+        ConquerorHealth conqueror)
+    {
+        if (quizActive || conqueror == null || conqueror.IsDefeated)
+            return;
+
+        quizActive = true;
+        isConquerorQuiz = true;
+
+        currentConqueror = conqueror;
+        currentObstacle = null;
+        correctAnswer = answer;
+        currentConquerorPatrol =
+    conqueror.GetComponent<ConquerorPatrol>();
+
+        if (currentConquerorPatrol != null)
+        {
+            currentConquerorPatrol.SetPatrolEnabled(false);
+        }
+
+        ShowQuestion(question);
+    }
+
+    // SHOW QUIZ PANEL
+    void ShowQuestion(string question)
+    {
         questionText.text = question;
         feedbackText.text = "";
 
@@ -58,6 +97,7 @@ public class QuizManager : MonoBehaviour
         Time.timeScale = 0f;
     }
 
+    // CHECK ANSWER
     void CheckAnswer(bool selectedAnswer)
     {
         if (!quizActive)
@@ -65,9 +105,18 @@ public class QuizManager : MonoBehaviour
 
         if (selectedAnswer == correctAnswer)
         {
-            feedbackText.text = "¡Correcto! Obstáculo desbloqueado.";
+            if (isConquerorQuiz)
+            {
+                feedbackText.text = "¡Correcto! El Conqueror ha perdido un punto de vida.";
 
-            Destroy(currentObstacle);
+                currentConqueror.TakeDamage();
+            }
+            else
+            {
+                feedbackText.text = "¡Correcto! Obstáculo desbloqueado.";
+
+                Destroy(currentObstacle);
+            }
 
             CloseQuiz();
         }
@@ -75,25 +124,59 @@ public class QuizManager : MonoBehaviour
         {
             lifeManager.LoseLife();
 
-            // Check if the level is about to restart.
             if (lifeManager.CurrentLives <= 0)
                 return;
 
             feedbackText.text =
                 "¡Incorrecto! Has perdido una vida. Inténtalo nuevamente.";
+
+            if (isConquerorQuiz)
+            {
+                CloseQuiz();
+            }
         }
     }
 
+    // CLOSE QUIZ
+
     void CloseQuiz()
     {
-        quizPanel.SetActive(false);
+        // Remember which type of quiz is closing.
+        bool wasConquerorQuiz = isConquerorQuiz;
 
+        quizPanel.SetActive(false);
         quizActive = false;
 
+        // Resume Conqueror patrol if it is still alive.
+        if (currentConquerorPatrol != null &&
+            currentConqueror != null &&
+            !currentConqueror.IsDefeated)
+        {
+            currentConquerorPatrol.SetPatrolEnabled(true);
+        }
+
+        currentConquerorPatrol = null;
         currentObstacle = null;
+        currentConqueror = null;
 
         Time.timeScale = 1f;
 
         playerMovement.SetMovementEnabled(true);
+
+        // Separate the player after a Conqueror quiz.
+        if (wasConquerorQuiz)
+        {
+            float pushDirection =
+                playerMovement.transform.localScale.x >= 0 ? 1f : -1f;
+
+            playerMovement.ApplyConquerorKnockback(
+                new Vector2(pushDirection * 7f, 3f)
+            );
+        }
+
+        isConquerorQuiz = false;
     }
 }
+
+
+

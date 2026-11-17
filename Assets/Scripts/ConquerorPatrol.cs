@@ -1,4 +1,3 @@
-
 using UnityEngine;
 
 public class ConquerorPatrol : MonoBehaviour
@@ -11,6 +10,8 @@ public class ConquerorPatrol : MonoBehaviour
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
     private int direction = 1;
+
+    private bool patrolEnabled = true;
 
     void Start()
     {
@@ -30,6 +31,15 @@ public class ConquerorPatrol : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (!patrolEnabled)
+        {
+            rb.linearVelocity = new Vector2(
+                0f,
+                rb.linearVelocity.y
+            );
+            return;
+        }
+
         if (direction == 1 &&
             transform.position.x >= rightPoint.position.x)
         {
@@ -47,6 +57,19 @@ public class ConquerorPatrol : MonoBehaviour
             direction * moveSpeed,
             rb.linearVelocity.y
         );
+    }
+
+    public void SetPatrolEnabled(bool enabled)
+    {
+        patrolEnabled = enabled;
+
+        if (!patrolEnabled && rb != null)
+        {
+            rb.linearVelocity = new Vector2(
+                0f,
+                rb.linearVelocity.y
+            );
+        }
     }
 
     void UpdateDirection()
