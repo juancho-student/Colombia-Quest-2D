@@ -1,0 +1,3304 @@
+fileFormatVersion: 2
+guid: d8310cdfb1866e74d986797801c126b5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2335137853717990464
+    second: Superficie marina pixelada en tonos azules_0
+  - first:
+      213: -5103129472109931495
+    second: Superficie marina pixelada en tonos azules_1
+  - first:
+      213: 8698129811798383903
+    second: Superficie marina pixelada en tonos azules_2
+  - first:
+      213: -8250460619332131352
+    second: Superficie marina pixelada en tonos azules_3
+  - first:
+      213: 2222006387998483104
+    second: Superficie marina pixelada en tonos azules_4
+  - first:
+      213: -4705976588069098382
+    second: Superficie marina pixelada en tonos azules_5
+  - first:
+      213: 1573078083861212812
+    second: Superficie marina pixelada en tonos azules_6
+  - first:
+      213: -5286630012791594609
+    second: Superficie marina pixelada en tonos azules_7
+  - first:
+      213: 5362296374611492932
+    second: Superficie marina pixelada en tonos azules_8
+  - first:
+      213: -1458588337921025304
+    second: Superficie marina pixelada en tonos azules_9
+  - first:
+      213: -6722419556060647114
+    second: Superficie marina pixelada en tonos azules_10
+  - first:
+      213: 9072256120218775821
+    second: Superficie marina pixelada en tonos azules_11
+  - first:
+      213: 4162881645724461963
+    second: Superficie marina pixelada en tonos azules_12
+  - first:
+      213: -991417280958659356
+    second: Superficie marina pixelada en tonos azules_13
+  - first:
+      213: -8536526793034308673
+    second: Superficie marina pixelada en tonos azules_14
+  - first:
+      213: -2191599888723202815
+    second: Superficie marina pixelada en tonos azules_15
+  - first:
+      213: -6854608369908860008
+    second: Superficie marina pixelada en tonos azules_16
+  - first:
+      213: -4957531528482085649
+    second: Superficie marina pixelada en tonos azules_17
+  - first:
+      213: 5284289925558458925
+    second: Superficie marina pixelada en tonos azules_18
+  - first:
+      213: 6748455159164733790
+    second: Superficie marina pixelada en tonos azules_19
+  - first:
+      213: 2627574296463311322
+    second: Superficie marina pixelada en tonos azules_20
+  - first:
+      213: -1695004278363178396
+    second: Superficie marina pixelada en tonos azules_21
+  - first:
+      213: 3614930986759940297
+    second: Superficie marina pixelada en tonos azules_22
+  - first:
+      213: -3540436619304220228
+    second: Superficie marina pixelada en tonos azules_23
+  - first:
+      213: -5552986363861281499
+    second: Superficie marina pixelada en tonos azules_24
+  - first:
+      213: -5785744602394305506
+    second: Superficie marina pixelada en tonos azules_25
+  - first:
+      213: 7158808428026698995
+    second: Superficie marina pixelada en tonos azules_26
+  - first:
+      213: -5795681069903507054
+    second: Superficie marina pixelada en tonos azules_27
+  - first:
+      213: 2811228747441638721
+    second: Superficie marina pixelada en tonos azules_28
+  - first:
+      213: -5435495392585302427
+    second: Superficie marina pixelada en tonos azules_29
+  - first:
+      213: -8288150799718962258
+    second: Superficie marina pixelada en tonos azules_30
+  - first:
+      213: -5770360471438120337
+    second: Superficie marina pixelada en tonos azules_31
+  - first:
+      213: 1906581899037295713
+    second: Superficie marina pixelada en tonos azules_32
+  - first:
+      213: 6368226879910119435
+    second: Superficie marina pixelada en tonos azules_33
+  - first:
+      213: 7348099510738737291
+    second: Superficie marina pixelada en tonos azules_34
+  - first:
+      213: -2061592947140809540
+    second: Superficie marina pixelada en tonos azules_35
+  - first:
+      213: 2203965524653970160
+    second: Superficie marina pixelada en tonos azules_36
+  - first:
+      213: -7389803027592320488
+    second: Superficie marina pixelada en tonos azules_37
+  - first:
+      213: 6361996109042940240
+    second: Superficie marina pixelada en tonos azules_38
+  - first:
+      213: 3299297848173419396
+    second: Superficie marina pixelada en tonos azules_39
+  - first:
+      213: -8489215792069641735
+    second: Superficie marina pixelada en tonos azules_40
+  - first:
+      213: 196913066540652586
+    second: Superficie marina pixelada en tonos azules_41
+  - first:
+      213: 5753793053727718981
+    second: Superficie marina pixelada en tonos azules_42
+  - first:
+      213: 9152654774300020903
+    second: Superficie marina pixelada en tonos azules_43
+  - first:
+      213: -4790768371929078965
+    second: Superficie marina pixelada en tonos azules_44
+  - first:
+      213: -6788067288656571398
+    second: Superficie marina pixelada en tonos azules_45
+  - first:
+      213: 8041911040953896988
+    second: Superficie marina pixelada en tonos azules_46
+  - first:
+      213: -8942756753998016867
+    second: Superficie marina pixelada en tonos azules_47
+  - first:
+      213: 5609007981498389398
+    second: Superficie marina pixelada en tonos azules_48
+  - first:
+      213: -4229720307425057063
+    second: Superficie marina pixelada en tonos azules_49
+  - first:
+      213: -9063785073938476294
+    second: Superficie marina pixelada en tonos azules_50
+  - first:
+      213: -4635126771422130622
+    second: Superficie marina pixelada en tonos azules_51
+  - first:
+      213: 535154790800341385
+    second: Superficie marina pixelada en tonos azules_52
+  - first:
+      213: -947313905888339384
+    second: Superficie marina pixelada en tonos azules_53
+  - first:
+      213: 7876478421639904287
+    second: Superficie marina pixelada en tonos azules_54
+  - first:
+      213: 8949297828982565252
+    second: Superficie marina pixelada en tonos azules_55
+  - first:
+      213: -5766015736594005654
+    second: Superficie marina pixelada en tonos azules_56
+  - first:
+      213: 6524033615812028283
+    second: Superficie marina pixelada en tonos azules_57
+  - first:
+      213: -3404685280544495916
+    second: Superficie marina pixelada en tonos azules_58
+  - first:
+      213: 2924959011707955449
+    second: Superficie marina pixelada en tonos azules_59
+  - first:
+      213: -5819918984234316279
+    second: Superficie marina pixelada en tonos azules_60
+  - first:
+      213: -321030039474723599
+    second: Superficie marina pixelada en tonos azules_61
+  - first:
+      213: 2040495294467489212
+    second: Superficie marina pixelada en tonos azules_62
+  - first:
+      213: -1947461899173129245
+    second: Superficie marina pixelada en tonos azules_63
+  - first:
+      213: -3545204378288310858
+    second: Superficie marina pixelada en tonos azules_64
+  - first:
+      213: 3864879684266465662
+    second: Superficie marina pixelada en tonos azules_65
+  - first:
+      213: 4435515699421272224
+    second: Superficie marina pixelada en tonos azules_66
+  - first:
+      213: 1352642045419490614
+    second: Superficie marina pixelada en tonos azules_67
+  - first:
+      213: -9154901305476859719
+    second: Superficie marina pixelada en tonos azules_68
+  - first:
+      213: 6362855401890728716
+    second: Superficie marina pixelada en tonos azules_69
+  - first:
+      213: 4654077501654529618
+    second: Superficie marina pixelada en tonos azules_70
+  - first:
+      213: 7838367451034193768
+    second: Superficie marina pixelada en tonos azules_71
+  - first:
+      213: -4139386366967416519
+    second: Superficie marina pixelada en tonos azules_72
+  - first:
+      213: -9104131683864705178
+    second: Superficie marina pixelada en tonos azules_73
+  - first:
+      213: 2831776169624196900
+    second: Superficie marina pixelada en tonos azules_74
+  - first:
+      213: -2839658046878586123
+    second: Superficie marina pixelada en tonos azules_75
+  - first:
+      213: -5414158014813488147
+    second: Superficie marina pixelada en tonos azules_76
+  - first:
+      213: 591855107704667668
+    second: Superficie marina pixelada en tonos azules_77
+  - first:
+      213: 4167753418038825159
+    second: Superficie marina pixelada en tonos azules_78
+  - first:
+      213: -990589640397431780
+    second: Superficie marina pixelada en tonos azules_79
+  - first:
+      213: 3306181054261128809
+    second: Superficie marina pixelada en tonos azules_80
+  - first:
+      213: 3445154210820022836
+    second: Superficie marina pixelada en tonos azules_81
+  - first:
+      213: -1394816557096847712
+    second: Superficie marina pixelada en tonos azules_82
+  - first:
+      213: -6011052093384511638
+    second: Superficie marina pixelada en tonos azules_83
+  - first:
+      213: -5283918554491549795
+    second: Superficie marina pixelada en tonos azules_84
+  - first:
+      213: -4652314294176207825
+    second: Superficie marina pixelada en tonos azules_85
+  - first:
+      213: 4504155692520090147
+    second: Superficie marina pixelada en tonos azules_86
+  - first:
+      213: 4235650603734754475
+    second: Superficie marina pixelada en tonos azules_87
+  - first:
+      213: -5399704409438573444
+    second: Superficie marina pixelada en tonos azules_88
+  - first:
+      213: -5705598875077802138
+    second: Superficie marina pixelada en tonos azules_89
+  - first:
+      213: 5927349275130872891
+    second: Superficie marina pixelada en tonos azules_90
+  - first:
+      213: 8195107795713810798
+    second: Superficie marina pixelada en tonos azules_91
+  - first:
+      213: -7234913473241625866
+    second: Superficie marina pixelada en tonos azules_92
+  - first:
+      213: -2302636999411974627
+    second: Superficie marina pixelada en tonos azules_93
+  - first:
+      213: 3404027663916078147
+    second: Superficie marina pixelada en tonos azules_94
+  - first:
+      213: 1113297427556985279
+    second: Superficie marina pixelada en tonos azules_95
+  - first:
+      213: 1723338082748910275
+    second: Superficie marina pixelada en tonos azules_96
+  - first:
+      213: 1818661025725237154
+    second: Superficie marina pixelada en tonos azules_97
+  - first:
+      213: 8997844301659049334
+    second: Superficie marina pixelada en tonos azules_98
+  - first:
+      213: 6040106613435773227
+    second: Superficie marina pixelada en tonos azules_99
+  - first:
+      213: 5180028466660437795
+    second: Superficie marina pixelada en tonos azules_100
+  - first:
+      213: 1354047319937126880
+    second: Superficie marina pixelada en tonos azules_101
+  - first:
+      213: 2121022526385619482
+    second: Superficie marina pixelada en tonos azules_102
+  - first:
+      213: -6380450321955131537
+    second: Superficie marina pixelada en tonos azules_103
+  - first:
+      213: 1479361193712625701
+    second: Superficie marina pixelada en tonos azules_104
+  - first:
+      213: 1228390565474187446
+    second: Superficie marina pixelada en tonos azules_105
+  - first:
+      213: 9000386956293032164
+    second: Superficie marina pixelada en tonos azules_106
+  - first:
+      213: 9102543762387893307
+    second: Superficie marina pixelada en tonos azules_107
+  - first:
+      213: 4087488534161312403
+    second: Superficie marina pixelada en tonos azules_108
+  - first:
+      213: -8600825281702791398
+    second: Superficie marina pixelada en tonos azules_109
+  - first:
+      213: 3899436624386383806
+    second: Superficie marina pixelada en tonos azules_110
+  - first:
+      213: 9092633736716075877
+    second: Superficie marina pixelada en tonos azules_111
+  - first:
+      213: 3313056788944223839
+    second: Superficie marina pixelada en tonos azules_112
+  - first:
+      213: -2928786333498023175
+    second: Superficie marina pixelada en tonos azules_113
+  - first:
+      213: -3410286851539424545
+    second: Superficie marina pixelada en tonos azules_114
+  - first:
+      213: 3705850870314935137
+    second: Superficie marina pixelada en tonos azules_115
+  - first:
+      213: -8419828264024654286
+    second: Superficie marina pixelada en tonos azules_116
+  - first:
+      213: -4935165149399192310
+    second: Superficie marina pixelada en tonos azules_117
+  - first:
+      213: -5150308152907410685
+    second: Superficie marina pixelada en tonos azules_118
+  - first:
+      213: 16374578485521124
+    second: Superficie marina pixelada en tonos azules_119
+  - first:
+      213: 71769117222454779
+    second: Superficie marina pixelada en tonos azules_120
+  - first:
+      213: -1287539020351725907
+    second: Superficie marina pixelada en tonos azules_121
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 520
+        width: 22
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3329f7e7ce79fd0800000000000000
+      internalID: -2335137853717990464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 575
+        width: 70
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9149f0c58ca0e29b0800000000000000
+      internalID: -5103129472109931495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_2
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 618
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d5a7aaaf6f5b870800000000000000
+      internalID: 8698129811798383903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_3
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 500
+        width: 134
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5eb5f87c9708d80800000000000000
+      internalID: -8250460619332131352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_4
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 641
+        width: 64
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a26c45890726de10800000000000000
+      internalID: 2222006387998483104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_5
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 472
+        width: 208
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c26daf93301beb0800000000000000
+      internalID: -4705976588069098382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_6
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 634
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8eef78ce22b4d510800000000000000
+      internalID: 1573078083861212812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_7
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 496
+        width: 260
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8163ac530e12a6b0800000000000000
+      internalID: -5286630012791594609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_8
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 626
+        width: 68
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 440451d5424ba6a40800000000000000
+      internalID: 5362296374611492932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_9
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 562
+        width: 66
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea90b472ad02cbe0800000000000000
+      internalID: -1458588337921025304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_10
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 645
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631bdd9d70b25b2a0800000000000000
+      internalID: -6722419556060647114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_11
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 640
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01f00ddfd027ed70800000000000000
+      internalID: 9072256120218775821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_12
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 640
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b66670dc685c930800000000000000
+      internalID: 4162881645724461963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_13
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 624
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e486485c37cd32f0800000000000000
+      internalID: -991417280958659356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_14
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 628
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3e5953c1a288980800000000000000
+      internalID: -8536526793034308673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_15
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 514
+        width: 86
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d2ed6438fd591e0800000000000000
+      internalID: -2191599888723202815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_16
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 608
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89bb92d310a8fd0a0800000000000000
+      internalID: -6854608369908860008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_17
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 608
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe4a60a475f433bb0800000000000000
+      internalID: -4957531528482085649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_18
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 618
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a561f90b1955940800000000000000
+      internalID: 5284289925558458925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_19
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 512
+        width: 140
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e598aa0663457ad50800000000000000
+      internalID: 6748455159164733790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_20
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 608
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad184a1b6e4077420800000000000000
+      internalID: 2627574296463311322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 612
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a356fd6922a78e0800000000000000
+      internalID: -1695004278363178396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_22
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 610
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8e0696490da2230800000000000000
+      internalID: 3614930986759940297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_23
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 514
+        width: 116
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb9469c17a7dddec0800000000000000
+      internalID: -3540436619304220228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_24
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 594
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525d573b254dfe2b0800000000000000
+      internalID: -5552986363861281499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 610
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c572530f7e4bfa0800000000000000
+      internalID: -5785744602394305506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_26
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 596
+        width: 51
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc9a971652395360800000000000000
+      internalID: 7158808428026698995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_27
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 514
+        width: 111
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29112f416ca919fa0800000000000000
+      internalID: -5795681069903507054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_28
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 564
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d00a9b6ad730720800000000000000
+      internalID: 2811228747441638721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_29
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 592
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e3eaa2dbd3194b0800000000000000
+      internalID: -5435495392585302427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_30
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 560
+        width: 80
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaba1e992c29afc80800000000000000
+      internalID: -8288150799718962258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_31
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 508
+        width: 125
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6aa9f159bf8befa0800000000000000
+      internalID: -5770360471438120337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_32
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 609
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 164ce4bb22a857a10800000000000000
+      internalID: 1906581899037295713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_33
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 596
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0803226b9c706850800000000000000
+      internalID: 6368226879910119435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_34
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 470
+        width: 227
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88ddc7b291b9f560800000000000000
+      internalID: 7348099510738737291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_35
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 584
+        width: 15
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbca83a2320c363e0800000000000000
+      internalID: -2061592947140809540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_36
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 596
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f21532b7fe069e10800000000000000
+      internalID: 2203965524653970160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_37
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 472
+        width: 142
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ae04c9c45227990800000000000000
+      internalID: -7389803027592320488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_38
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 594
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059fbedf0c95a4850800000000000000
+      internalID: 6361996109042940240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_39
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 530
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b569899e579cd20800000000000000
+      internalID: 3299297848173419396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_40
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 600
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f97d04073f303a80800000000000000
+      internalID: -8489215792069641735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_41
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 596
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28d9c604639bb200800000000000000
+      internalID: 196913066540652586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_42
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 594
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54efc862c4499df40800000000000000
+      internalID: 5753793053727718981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_43
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 594
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a09fed3603c40f70800000000000000
+      internalID: 9152654774300020903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_44
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 560
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43adfd5c85c38db0800000000000000
+      internalID: -4790768371929078965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_45
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 580
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af31d2404c0fbc1a0800000000000000
+      internalID: -6788067288656571398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_46
+      rect:
+        serializedVersion: 2
+        x: 2146
+        y: 582
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10595fdb7b9a9f60800000000000000
+      internalID: 8041911040953896988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_47
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 532
+        width: 31
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e093dec12f4e380800000000000000
+      internalID: -8942756753998016867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_48
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 586
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 693da879a0337dd40800000000000000
+      internalID: 5609007981498389398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_49
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 512
+        width: 101
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d66ca85ac30d45c0800000000000000
+      internalID: -4229720307425057063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_50
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 584
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af2d86b4f77f63280800000000000000
+      internalID: -9063785073938476294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_51
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 530
+        width: 100
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e0b7462c8bcafb0800000000000000
+      internalID: -4635126771422130622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_52
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 584
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989b08562704d6700800000000000000
+      internalID: 535154790800341385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_53
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 578
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84adcbc85077ad2f0800000000000000
+      internalID: -947313905888339384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_54
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 471
+        width: 160
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c30e2a46fde4d60800000000000000
+      internalID: 7876478421639904287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_55
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 576
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4892ea5c5fa423c70800000000000000
+      internalID: 8949297828982565252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_56
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 583
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61800bbc3ffaffa0800000000000000
+      internalID: -5766015736594005654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_57
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 564
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b77ee2df1060a8a50800000000000000
+      internalID: 6524033615812028283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_58
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 568
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d6e421b6c020c0d0800000000000000
+      internalID: -3404685280544495916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_59
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 548
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f82e6b59ba879820800000000000000
+      internalID: 2924959011707955449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_60
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 558
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e4923e48e7b3fa0800000000000000
+      internalID: -5819918984234316279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_61
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 550
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f421e641e87b8bf0800000000000000
+      internalID: -321030039474723599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_62
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 574
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd3798c8ab415c10800000000000000
+      internalID: 2040495294467489212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_63
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 562
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e39d2688b939f4e0800000000000000
+      internalID: -1947461899173129245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_64
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 572
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b537f7b667eccec0800000000000000
+      internalID: -3545204378288310858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_65
+      rect:
+        serializedVersion: 2
+        x: 2146
+        y: 552
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e799358889fc2a530800000000000000
+      internalID: 3864879684266465662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_66
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 560
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a85cab370e1e8d30800000000000000
+      internalID: 4435515699421272224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_67
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 558
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d8c7116cc85c210800000000000000
+      internalID: 1352642045419490614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_68
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 562
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8ba4574c143f080800000000000000
+      internalID: -9154901305476859719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_69
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 512
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b4fd2b6476d4850800000000000000
+      internalID: 6362855401890728716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_70
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 470
+        width: 122
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256714354da969040800000000000000
+      internalID: 4654077501654529618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_71
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 562
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f80e1daa977cc60800000000000000
+      internalID: 7838367451034193768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_72
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 560
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939ffc8d702fd86c0800000000000000
+      internalID: -4139386366967416519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_73
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 544
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6678dd22870a7a180800000000000000
+      internalID: -9104131683864705178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_74
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 528
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427ddd14c6d7c4720800000000000000
+      internalID: 2831776169624196900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_75
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 544
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fae8303d028798d0800000000000000
+      internalID: -2839658046878586123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_76
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 564
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb353198fb0dd4b0800000000000000
+      internalID: -5414158014813488147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_77
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 499
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ebc3da511b63800800000000000000
+      internalID: 591855107704667668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_78
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 542
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c0df99e6a5d6d930800000000000000
+      internalID: 4167753418038825159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_79
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 544
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1cdded68f7b042f0800000000000000
+      internalID: -990589640397431780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_80
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 545
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e6c56e62ae1ed20800000000000000
+      internalID: 3306181054261128809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_81
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 548
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4326e546085afcf20800000000000000
+      internalID: 3445154210820022836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_82
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 478
+        width: 46
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6b86b3bbd94ace0800000000000000
+      internalID: -1394816557096847712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_83
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 534
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6fa27f08f3749ca0800000000000000
+      internalID: -6011052093384511638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_84
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 534
+        width: 43
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d978f61f110cba6b0800000000000000
+      internalID: -5283918554491549795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_85
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 520
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ca7286cc8af6fb0800000000000000
+      internalID: -4652314294176207825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_86
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 516
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32aa6b10db9f18e30800000000000000
+      internalID: 4504155692520090147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_87
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 524
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba4674c58cd08ca30800000000000000
+      internalID: 4235650603734754475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_88
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 522
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7cad4fc2756015b0800000000000000
+      internalID: -5399704409438573444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_89
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 530
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6678e1c7d04a1d0b0800000000000000
+      internalID: -5705598875077802138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_90
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 512
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3448d3e2cc224250800000000000000
+      internalID: 5927349275130872891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_91
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 516
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e616e83ee1fdab170800000000000000
+      internalID: 8195107795713810798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_92
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 512
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6facebe378c689b90800000000000000
+      internalID: -7234913473241625866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_93
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 508
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1eb06359d36b00e0800000000000000
+      internalID: -2302636999411974627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_94
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 516
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344125100298d3f20800000000000000
+      internalID: 3404027663916078147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_95
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 506
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb9e3e2ac1a337f00800000000000000
+      internalID: 1113297427556985279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_96
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 514
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cac62a0bd68ae710800000000000000
+      internalID: 1723338082748910275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_97
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 506
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a74335319e2d3910800000000000000
+      internalID: 1818661025725237154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_98
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 516
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d09a048b3cedc70800000000000000
+      internalID: 8997844301659049334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_99
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 514
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21b35b86f4c2d350800000000000000
+      internalID: 6040106613435773227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_100
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 502
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32fe4b9027823e740800000000000000
+      internalID: 5180028466660437795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_101
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 500
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e11ce90dda8ac210800000000000000
+      internalID: 1354047319937126880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_102
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 506
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1201d500c26f6d10800000000000000
+      internalID: 2121022526385619482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_103
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 504
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f66dcbc361477a0800000000000000
+      internalID: -6380450321955131537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_104
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 506
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5282dbdea2fb78410800000000000000
+      internalID: 1479361193712625701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_105
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 512
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8b78406be1c0110800000000000000
+      internalID: 1228390565474187446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_106
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 510
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8c7ea204cc7ec70800000000000000
+      internalID: 9000386956293032164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_107
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 504
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3cf395135bb25e70800000000000000
+      internalID: 9102543762387893307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_108
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 500
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39aca265a2da9b830800000000000000
+      internalID: 4087488534161312403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_109
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 492
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17f7e4b9fab3a880800000000000000
+      internalID: -8600825281702791398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_110
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 482
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebfd2b423f49d1630800000000000000
+      internalID: 3899436624386383806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_111
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 465
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563c1bd65368f2e70800000000000000
+      internalID: 9092633736716075877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_112
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 465
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e77b1a8975afd20800000000000000
+      internalID: 3313056788944223839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_113
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 474
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2e4d8d85cda57d0800000000000000
+      internalID: -2928786333498023175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2172
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdaaecf4d2a3ca0d0800000000000000
+      internalID: -3410286851539424545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_115
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 461
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163a1bb6bb3dd6330800000000000000
+      internalID: 3705850870314935137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_116
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 453
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e3405ddc2c62b80800000000000000
+      internalID: -8419828264024654286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_117
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 469
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d6c2ab175c28bb0800000000000000
+      internalID: -4935165149399192310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_118
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 451
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303d72eb50e6688b0800000000000000
+      internalID: -5150308152907410685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_119
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 460
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eae9f5a79c2a3000800000000000000
+      internalID: 16374578485521124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_120
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 452
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf543e1c1a9fef000800000000000000
+      internalID: 71769117222454779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superficie marina pixelada en tonos azules_121
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 449
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae1b79251eb12ee0800000000000000
+      internalID: -1287539020351725907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Superficie marina pixelada en tonos azules_0: -2335137853717990464
+      Superficie marina pixelada en tonos azules_1: -5103129472109931495
+      Superficie marina pixelada en tonos azules_10: -6722419556060647114
+      Superficie marina pixelada en tonos azules_100: 5180028466660437795
+      Superficie marina pixelada en tonos azules_101: 1354047319937126880
+      Superficie marina pixelada en tonos azules_102: 2121022526385619482
+      Superficie marina pixelada en tonos azules_103: -6380450321955131537
+      Superficie marina pixelada en tonos azules_104: 1479361193712625701
+      Superficie marina pixelada en tonos azules_105: 1228390565474187446
+      Superficie marina pixelada en tonos azules_106: 9000386956293032164
+      Superficie marina pixelada en tonos azules_107: 9102543762387893307
+      Superficie marina pixelada en tonos azules_108: 4087488534161312403
+      Superficie marina pixelada en tonos azules_109: -8600825281702791398
+      Superficie marina pixelada en tonos azules_11: 9072256120218775821
+      Superficie marina pixelada en tonos azules_110: 3899436624386383806
+      Superficie marina pixelada en tonos azules_111: 9092633736716075877
+      Superficie marina pixelada en tonos azules_112: 3313056788944223839
+      Superficie marina pixelada en tonos azules_113: -2928786333498023175
+      Superficie marina pixelada en tonos azules_114: -3410286851539424545
+      Superficie marina pixelada en tonos azules_115: 3705850870314935137
+      Superficie marina pixelada en tonos azules_116: -8419828264024654286
+      Superficie marina pixelada en tonos azules_117: -4935165149399192310
+      Superficie marina pixelada en tonos azules_118: -5150308152907410685
+      Superficie marina pixelada en tonos azules_119: 16374578485521124
+      Superficie marina pixelada en tonos azules_12: 4162881645724461963
+      Superficie marina pixelada en tonos azules_120: 71769117222454779
+      Superficie marina pixelada en tonos azules_121: -1287539020351725907
+      Superficie marina pixelada en tonos azules_13: -991417280958659356
+      Superficie marina pixelada en tonos azules_14: -8536526793034308673
+      Superficie marina pixelada en tonos azules_15: -2191599888723202815
+      Superficie marina pixelada en tonos azules_16: -6854608369908860008
+      Superficie marina pixelada en tonos azules_17: -4957531528482085649
+      Superficie marina pixelada en tonos azules_18: 5284289925558458925
+      Superficie marina pixelada en tonos azules_19: 6748455159164733790
+      Superficie marina pixelada en tonos azules_2: 8698129811798383903
+      Superficie marina pixelada en tonos azules_20: 2627574296463311322
+      Superficie marina pixelada en tonos azules_21: -1695004278363178396
+      Superficie marina pixelada en tonos azules_22: 3614930986759940297
+      Superficie marina pixelada en tonos azules_23: -3540436619304220228
+      Superficie marina pixelada en tonos azules_24: -5552986363861281499
+      Superficie marina pixelada en tonos azules_25: -5785744602394305506
+      Superficie marina pixelada en tonos azules_26: 7158808428026698995
+      Superficie marina pixelada en tonos azules_27: -5795681069903507054
+      Superficie marina pixelada en tonos azules_28: 2811228747441638721
+      Superficie marina pixelada en tonos azules_29: -5435495392585302427
+      Superficie marina pixelada en tonos azules_3: -8250460619332131352
+      Superficie marina pixelada en tonos azules_30: -8288150799718962258
+      Superficie marina pixelada en tonos azules_31: -5770360471438120337
+      Superficie marina pixelada en tonos azules_32: 1906581899037295713
+      Superficie marina pixelada en tonos azules_33: 6368226879910119435
+      Superficie marina pixelada en tonos azules_34: 7348099510738737291
+      Superficie marina pixelada en tonos azules_35: -2061592947140809540
+      Superficie marina pixelada en tonos azules_36: 2203965524653970160
+      Superficie marina pixelada en tonos azules_37: -7389803027592320488
+      Superficie marina pixelada en tonos azules_38: 6361996109042940240
+      Superficie marina pixelada en tonos azules_39: 3299297848173419396
+      Superficie marina pixelada en tonos azules_4: 2222006387998483104
+      Superficie marina pixelada en tonos azules_40: -8489215792069641735
+      Superficie marina pixelada en tonos azules_41: 196913066540652586
+      Superficie marina pixelada en tonos azules_42: 5753793053727718981
+      Superficie marina pixelada en tonos azules_43: 9152654774300020903
+      Superficie marina pixelada en tonos azules_44: -4790768371929078965
+      Superficie marina pixelada en tonos azules_45: -6788067288656571398
+      Superficie marina pixelada en tonos azules_46: 8041911040953896988
+      Superficie marina pixelada en tonos azules_47: -8942756753998016867
+      Superficie marina pixelada en tonos azules_48: 5609007981498389398
+      Superficie marina pixelada en tonos azules_49: -4229720307425057063
+      Superficie marina pixelada en tonos azules_5: -4705976588069098382
+      Superficie marina pixelada en tonos azules_50: -9063785073938476294
+      Superficie marina pixelada en tonos azules_51: -4635126771422130622
+      Superficie marina pixelada en tonos azules_52: 535154790800341385
+      Superficie marina pixelada en tonos azules_53: -947313905888339384
+      Superficie marina pixelada en tonos azules_54: 7876478421639904287
+      Superficie marina pixelada en tonos azules_55: 8949297828982565252
+      Superficie marina pixelada en tonos azules_56: -5766015736594005654
+      Superficie marina pixelada en tonos azules_57: 6524033615812028283
+      Superficie marina pixelada en tonos azules_58: -3404685280544495916
+      Superficie marina pixelada en tonos azules_59: 2924959011707955449
+      Superficie marina pixelada en tonos azules_6: 1573078083861212812
+      Superficie marina pixelada en tonos azules_60: -5819918984234316279
+      Superficie marina pixelada en tonos azules_61: -321030039474723599
+      Superficie marina pixelada en tonos azules_62: 2040495294467489212
+      Superficie marina pixelada en tonos azules_63: -1947461899173129245
+      Superficie marina pixelada en tonos azules_64: -3545204378288310858
+      Superficie marina pixelada en tonos azules_65: 3864879684266465662
+      Superficie marina pixelada en tonos azules_66: 4435515699421272224
+      Superficie marina pixelada en tonos azules_67: 1352642045419490614
+      Superficie marina pixelada en tonos azules_68: -9154901305476859719
+      Superficie marina pixelada en tonos azules_69: 6362855401890728716
+      Superficie marina pixelada en tonos azules_7: -5286630012791594609
+      Superficie marina pixelada en tonos azules_70: 4654077501654529618
+      Superficie marina pixelada en tonos azules_71: 7838367451034193768
+      Superficie marina pixelada en tonos azules_72: -4139386366967416519
+      Superficie marina pixelada en tonos azules_73: -9104131683864705178
+      Superficie marina pixelada en tonos azules_74: 2831776169624196900
+      Superficie marina pixelada en tonos azules_75: -2839658046878586123
+      Superficie marina pixelada en tonos azules_76: -5414158014813488147
+      Superficie marina pixelada en tonos azules_77: 591855107704667668
+      Superficie marina pixelada en tonos azules_78: 4167753418038825159
+      Superficie marina pixelada en tonos azules_79: -990589640397431780
+      Superficie marina pixelada en tonos azules_8: 5362296374611492932
+      Superficie marina pixelada en tonos azules_80: 3306181054261128809
+      Superficie marina pixelada en tonos azules_81: 3445154210820022836
+      Superficie marina pixelada en tonos azules_82: -1394816557096847712
+      Superficie marina pixelada en tonos azules_83: -6011052093384511638
+      Superficie marina pixelada en tonos azules_84: -5283918554491549795
+      Superficie marina pixelada en tonos azules_85: -4652314294176207825
+      Superficie marina pixelada en tonos azules_86: 4504155692520090147
+      Superficie marina pixelada en tonos azules_87: 4235650603734754475
+      Superficie marina pixelada en tonos azules_88: -5399704409438573444
+      Superficie marina pixelada en tonos azules_89: -5705598875077802138
+      Superficie marina pixelada en tonos azules_9: -1458588337921025304
+      Superficie marina pixelada en tonos azules_90: 5927349275130872891
+      Superficie marina pixelada en tonos azules_91: 8195107795713810798
+      Superficie marina pixelada en tonos azules_92: -7234913473241625866
+      Superficie marina pixelada en tonos azules_93: -2302636999411974627
+      Superficie marina pixelada en tonos azules_94: 3404027663916078147
+      Superficie marina pixelada en tonos azules_95: 1113297427556985279
+      Superficie marina pixelada en tonos azules_96: 1723338082748910275
+      Superficie marina pixelada en tonos azules_97: 1818661025725237154
+      Superficie marina pixelada en tonos azules_98: 8997844301659049334
+      Superficie marina pixelada en tonos azules_99: 6040106613435773227
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

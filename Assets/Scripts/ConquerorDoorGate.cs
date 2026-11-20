@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public class ConquerorDoorGate : MonoBehaviour
@@ -7,6 +8,23 @@ public class ConquerorDoorGate : MonoBehaviour
 
     [Header("Door Reference")]
     public Collider2D doorBlocker;
+
+    public bool AreAllConquerorsDefeated
+    {
+        get
+        {
+            if (conquerors == null || conquerors.Length == 0)
+                return false;
+
+            foreach (ConquerorHealth enemy in conquerors)
+            {
+                if (enemy == null || !enemy.IsDefeated)
+                    return false;
+            }
+
+            return true;
+        }
+    }
 
     void Start()
     {
@@ -21,19 +39,13 @@ public class ConquerorDoorGate : MonoBehaviour
 
     void Update()
     {
-        if (doorBlocker == null || conquerors == null)
-            return;
-
-        foreach (ConquerorHealth enemy in conquerors)
+        if (AreAllConquerorsDefeated && doorBlocker != null)
         {
-            if (enemy == null || !enemy.IsDefeated)
-                return;
-        }
-
-        if (doorBlocker.enabled)
-        {
-            doorBlocker.enabled = false;
-            Debug.Log("All Conquerors defeated. Door unlocked!");
+            if (doorBlocker.enabled)
+            {
+                doorBlocker.enabled = false;
+                Debug.Log("All Conquerors defeated. Door unlocked!");
+            }
         }
     }
 }
