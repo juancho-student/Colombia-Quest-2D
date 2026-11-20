@@ -15,7 +15,10 @@ public class QuizManager : MonoBehaviour
 
     [Header("Game References")]
     public LifeManager lifeManager;
+  
     public PlayerMovement playerMovement;
+    [Header("Sound Effects")]
+    public AudioClip correctSound;
 
     private bool correctAnswer;
     private GameObject currentObstacle;
@@ -105,6 +108,11 @@ public class QuizManager : MonoBehaviour
 
         if (selectedAnswer == correctAnswer)
         {
+            if (lifeManager.audioSource != null &&
+            correctSound != null)
+            {
+                lifeManager.audioSource.PlayOneShot(correctSound);
+            }
             if (isConquerorQuiz)
             {
                 feedbackText.text = "¡Correcto! El Conqueror ha perdido un punto de vida.";
@@ -122,7 +130,7 @@ public class QuizManager : MonoBehaviour
         }
         else
         {
-            lifeManager.LoseLife();
+            lifeManager.LoseLife(lifeManager.errorSound);
 
             if (lifeManager.CurrentLives <= 0)
                 return;

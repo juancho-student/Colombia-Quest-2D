@@ -115,7 +115,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 if (lifeManager != null)
                 {
-                    lifeManager.LoseLife();
+                    lifeManager.LoseLife(lifeManager.loseLifeSound);
                 }
                 else
                 {

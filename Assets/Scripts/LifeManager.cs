@@ -1,7 +1,7 @@
-
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class LifeManager : MonoBehaviour
 {
@@ -12,8 +12,15 @@ public class LifeManager : MonoBehaviour
     [Header("UI Hearts")]
     public Image[] hearts;
 
+    [Header("Sound Effects")]
+    public AudioSource audioSource;
+    public AudioClip loseLifeSound;
+    public AudioClip errorSound;
+    public AudioClip defeatSound;
+
     private float nextDamageTime = 0f;
     public float damageCooldown = 1f;
+    private bool restarting;
 
     public int CurrentLives => currentLives;
 
@@ -23,9 +30,11 @@ public class LifeManager : MonoBehaviour
         UpdateHearts();
     }
 
-    public void LoseLife()
+    public void LoseLife(AudioClip damageSound = null)
     {
-        // Prevent multiple life losses in a short period.
+        if (restarting)
+            return;
+
         if (Time.unscaledTime < nextDamageTime)
             return;
 
@@ -33,13 +42,19 @@ public class LifeManager : MonoBehaviour
 
         currentLives--;
 
+        if (audioSource != null && damageSound != null)
+        {
+            audioSource.PlayOneShot(damageSound);
+        }
+
         UpdateHearts();
 
         Debug.Log("Lives remaining: " + currentLives);
 
         if (currentLives <= 0)
         {
-            RestartLevel();
+            restarting = true;
+            StartCoroutine(RestartLevel());
         }
     }
 
@@ -51,8 +66,21 @@ public class LifeManager : MonoBehaviour
         }
     }
 
-    void RestartLevel()
+    IEnumerator RestartLevel()
     {
+        Time.timeScale = 0f;
+
+        if (audioSource != null && defeatSound != null)
+        {
+            audioSource.PlayOneShot(defeatSound);
+
+            yield return new WaitForSecondsRealtime(defeatSound.length);
+        }
+        else
+        {
+            yield return new WaitForSecondsRealtime(0.5f);
+        }
+
         Time.timeScale = 1f;
 
         SceneManager.LoadScene(
@@ -60,4 +88,3 @@ public class LifeManager : MonoBehaviour
         );
     }
 }
-
