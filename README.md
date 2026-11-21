@@ -1,10 +1,10 @@
-# ColombiaQuest
+# ColombiaQuest v2.0
 
 ## Description
 
 ColombiaQuest is a 2D platformer game developed in Unity and inspired by Colombia's history, culture, and heritage.
 
-Version 1.1 expands the gameplay experience with historical challenges, new interactive elements, sound effects, and pixel-art representations of important Colombian landmarks and historical figures.
+Version 2.0 expands the gameplay experience with historical challenges, new interactive elements, sound effects, and pixel-art representations of important Colombian landmarks and historical figures.
 
 ## Features
 
@@ -53,7 +53,7 @@ Level 1 takes place in Cartagena and incorporates elements of Colombian history 
 - Horizontal movement: Arrow keys.
 - Jump: Spacebar.
 
-## Version 1.1 Content
+## Version 2.0 Content
 
 - Expanded historical content for Level 1 – Cartagena.
 - Added La India Catalina pixel-art asset.
@@ -75,7 +75,7 @@ Level 1 takes place in Cartagena and incorporates elements of Colombian history 
 
 ## Project Status
 
-Current version: v1.1.
+Current version: v2.0.
 
 ColombiaQuest continues to evolve through the addition of historical content, gameplay mechanics, audiovisual improvements, and new levels.
 
@@ -85,7 +85,7 @@ Juan Camilo Molina
 
 ---
 
-**ColombiaQuest v1.1 — The adventure continues through Colombia!**
+**ColombiaQuest v2.0 — The adventure continues through Colombia!**
 
 # ColombiaQuest - Instrucciones en Español
 
@@ -93,7 +93,7 @@ Juan Camilo Molina
 
 ColombiaQuest es un videojuego 2D de plataformas desarrollado en Unity e inspirado en la historia, la cultura y el patrimonio de Colombia.
 
-La versión 1.1 amplía la experiencia de juego mediante desafíos históricos, nuevos elementos interactivos, efectos de sonido y representaciones en pixel art de lugares y personajes importantes de la historia colombiana.
+La versión 2.0 amplía la experiencia de juego mediante desafíos históricos, nuevos elementos interactivos, efectos de sonido y representaciones en pixel art de lugares y personajes importantes de la historia colombiana.
 
 ## Características
 
@@ -142,7 +142,7 @@ El nivel 1 se desarrolla en Cartagena e incorpora elementos de la historia y el 
 - Movimiento horizontal: teclas de dirección.
 - Salto: barra espaciadora.
 
-## Contenido de la versión 1.1
+## Contenido de la versión 2.0
 
 - Ampliación del contenido histórico del nivel 1 – Cartagena.
 - Incorporación de la India Catalina en pixel art.
@@ -164,7 +164,7 @@ El nivel 1 se desarrolla en Cartagena e incorpora elementos de la historia y el 
 
 ## Estado del proyecto
 
-Versión actual: v1.1.
+Versión actual: v2.0
 
 ColombiaQuest continúa evolucionando mediante la incorporación de contenido histórico, mecánicas de juego, mejoras audiovisuales y nuevos niveles.
 
@@ -174,4 +174,4 @@ Juan Camilo Molina
 
 ---
 
-**ColombiaQuest v1.1 — ¡La aventura continúa recorriendo Colombia!**
+**ColombiaQuest v2.0 — ¡La aventura continúa recorriendo Colombia!**
