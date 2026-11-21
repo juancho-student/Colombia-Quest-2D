@@ -1,25 +1,27 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-// Manages the main menu functionality.
+// Manages the main menu operations, including game initialization and application termination.
 public class MenuSystem : MonoBehaviour
 {
-    // Starts the game by loading the next scene in the Build Settings.
+    // Loads the next scene in the Build Settings to start the game.
     public void PlayGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        // Retrieve the index of the currently active scene and load the subsequent scene.
+        // This allows the game to transition from the main menu to the first playable level.
+        SceneManager.LoadScene(
+            SceneManager.GetActiveScene().buildIndex + 1
+        );
     }
 
-    // Exits the application.
+    // Terminates the application when the player selects the exit option.
     public void QuitGame()
     {
-        // Displays a message in the Unity Console.
+        // Display a confirmation message in the Unity Console for debugging purposes.
         Debug.Log("Exiting Game");
 
-        // Closes the application.
+        // Request application termination.
+        // This command takes effect in the final application build.
         Application.Quit();
     }
 }
