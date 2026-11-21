@@ -1,0 +1,1510 @@
+fileFormatVersion: 2
+guid: d00015f74a4a188419da4987e174da62
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 482125918991911579
+    second: Logo Unad Color_0
+  - first:
+      213: -6033383730707601448
+    second: Logo Unad Color_1
+  - first:
+      213: 5632263793097432251
+    second: Logo Unad Color_2
+  - first:
+      213: 5081243036005222229
+    second: Logo Unad Color_3
+  - first:
+      213: -8049546231890640857
+    second: Logo Unad Color_4
+  - first:
+      213: -987211258601912178
+    second: Logo Unad Color_5
+  - first:
+      213: 2553392929827343307
+    second: Logo Unad Color_6
+  - first:
+      213: 7065453922824683427
+    second: Logo Unad Color_7
+  - first:
+      213: 2332490129925686315
+    second: Logo Unad Color_8
+  - first:
+      213: -3771270331056601947
+    second: Logo Unad Color_9
+  - first:
+      213: 4567497248076528239
+    second: Logo Unad Color_10
+  - first:
+      213: -1013211735485029502
+    second: Logo Unad Color_11
+  - first:
+      213: -1184021644716476941
+    second: Logo Unad Color_12
+  - first:
+      213: -995412143752681952
+    second: Logo Unad Color_13
+  - first:
+      213: -622548105807702314
+    second: Logo Unad Color_14
+  - first:
+      213: 6080456137813023883
+    second: Logo Unad Color_15
+  - first:
+      213: 5098652567749372663
+    second: Logo Unad Color_16
+  - first:
+      213: -8694963966414612140
+    second: Logo Unad Color_17
+  - first:
+      213: 5820525976653183076
+    second: Logo Unad Color_18
+  - first:
+      213: 6571152131414159601
+    second: Logo Unad Color_19
+  - first:
+      213: -3941726829623715602
+    second: Logo Unad Color_20
+  - first:
+      213: -6503587196842223324
+    second: Logo Unad Color_21
+  - first:
+      213: -4210295886182230111
+    second: Logo Unad Color_22
+  - first:
+      213: 4000040429006474972
+    second: Logo Unad Color_23
+  - first:
+      213: -3392735790658083494
+    second: Logo Unad Color_24
+  - first:
+      213: -3911349574662526630
+    second: Logo Unad Color_25
+  - first:
+      213: 7040668958418431012
+    second: Logo Unad Color_26
+  - first:
+      213: -3168933334126915938
+    second: Logo Unad Color_27
+  - first:
+      213: -7537379873984327222
+    second: Logo Unad Color_28
+  - first:
+      213: 7818924546268021426
+    second: Logo Unad Color_29
+  - first:
+      213: 7778115069548001494
+    second: Logo Unad Color_30
+  - first:
+      213: 4785770035722008960
+    second: Logo Unad Color_31
+  - first:
+      213: -228771785654342695
+    second: Logo Unad Color_32
+  - first:
+      213: 1008860759381194110
+    second: Logo Unad Color_33
+  - first:
+      213: 1751934712403067043
+    second: Logo Unad Color_34
+  - first:
+      213: 2087878469607410969
+    second: Logo Unad Color_35
+  - first:
+      213: -6587119210678689737
+    second: Logo Unad Color_36
+  - first:
+      213: -7220398864294081488
+    second: Logo Unad Color_37
+  - first:
+      213: 5551737738318142028
+    second: Logo Unad Color_38
+  - first:
+      213: 5641190519066039669
+    second: Logo Unad Color_39
+  - first:
+      213: 6218381269194685180
+    second: Logo Unad Color_40
+  - first:
+      213: -3430172613512688796
+    second: Logo Unad Color_41
+  - first:
+      213: 1004661035742055815
+    second: Logo Unad Color_42
+  - first:
+      213: 7926209595524841520
+    second: Logo Unad Color_43
+  - first:
+      213: 5441682194143752925
+    second: Logo Unad Color_44
+  - first:
+      213: -1340543125584271507
+    second: Logo Unad Color_45
+  - first:
+      213: -8485118547593952675
+    second: Logo Unad Color_46
+  - first:
+      213: -290117477348367435
+    second: Logo Unad Color_47
+  - first:
+      213: -8177543902910985257
+    second: Logo Unad Color_48
+  - first:
+      213: 993214711791341621
+    second: Logo Unad Color_49
+  - first:
+      213: 2709619342793024103
+    second: Logo Unad Color_50
+  - first:
+      213: 4958969309907793605
+    second: Logo Unad Color_51
+  - first:
+      213: 9099030226951391370
+    second: Logo Unad Color_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Logo Unad Color_0
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2472
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a858a08fad0b600800000000000000
+      internalID: 482125918991911579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_1
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2542
+        width: 145
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d76d81967d154ca0800000000000000
+      internalID: -6033383730707601448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_2
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 2472
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbcdddc2412d92e40800000000000000
+      internalID: 5632263793097432251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2313
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557c482ae93348640800000000000000
+      internalID: 5081243036005222229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_4
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 2313
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7200315b9544a4090800000000000000
+      internalID: -8049546231890640857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1244
+        width: 2077
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8844cc3798bc42f0800000000000000
+      internalID: -987211258601912178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_6
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 1673
+        width: 520
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb4a5a57597f6320800000000000000
+      internalID: 2553392929827343307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_7
+      rect:
+        serializedVersion: 2
+        x: 2392
+        y: 1473
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3affade88e88d0260800000000000000
+      internalID: 7065453922824683427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_8
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 1243
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2443544a6bae5020800000000000000
+      internalID: 2332490129925686315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_9
+      rect:
+        serializedVersion: 2
+        x: 2231
+        y: 1314
+        width: 145
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4c66d6d91c9abc0800000000000000
+      internalID: -3771270331056601947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_10
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 947
+        width: 138
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6afc282c82036f30800000000000000
+      internalID: 4567497248076528239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_11
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1122
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28368287b4950f1f0800000000000000
+      internalID: -1013211735485029502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_12
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 1122
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5fc4c5692819fe0800000000000000
+      internalID: -1184021644716476941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_13
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 947
+        width: 128
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 026e28edde59f22f0800000000000000
+      internalID: -995412143752681952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_14
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 947
+        width: 128
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d65db1dbc34c57f0800000000000000
+      internalID: -622548105807702314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_15
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 951
+        width: 147
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c50b644ae126450800000000000000
+      internalID: 6080456137813023883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_16
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 1122
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7faa5dd1f7d02c640800000000000000
+      internalID: 5098652567749372663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_17
+      rect:
+        serializedVersion: 2
+        x: 2573
+        y: 951
+        width: 26
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45919072758455780800000000000000
+      internalID: -8694963966414612140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_18
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 951
+        width: 118
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468b85c8989a6c050800000000000000
+      internalID: 5820525976653183076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_19
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 951
+        width: 26
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f0fdfd4c0c613b50800000000000000
+      internalID: 6571152131414159601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_20
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 951
+        width: 129
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8d6a6255c2c49c0800000000000000
+      internalID: -3941726829623715602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_21
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 947
+        width: 133
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429d076e6ed9eb5a0800000000000000
+      internalID: -6503587196842223324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_22
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 951
+        width: 75
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7d1d8d2360295c0800000000000000
+      internalID: -4210295886182230111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_23
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 947
+        width: 128
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdec12ab39ff28730800000000000000
+      internalID: 4000040429006474972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_24
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 951
+        width: 26
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55221d16c49ae0d0800000000000000
+      internalID: -3392735790658083494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_25
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 947
+        width: 129
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a596dd9f84818b9c0800000000000000
+      internalID: -3911349574662526630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_26
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 947
+        width: 130
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c66a75d1b75b160800000000000000
+      internalID: 7040668958418431012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_27
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 947
+        width: 121
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e887e1cefa504d0800000000000000
+      internalID: -3168933334126915938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_28
+      rect:
+        serializedVersion: 2
+        x: 2038
+        y: 951
+        width: 26
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac15cf970f8d56790800000000000000
+      internalID: -7537379873984327222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_29
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 947
+        width: 134
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b243e9c276628c60800000000000000
+      internalID: 7818924546268021426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_30
+      rect:
+        serializedVersion: 2
+        x: 2258
+        y: 951
+        width: 118
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8758e027a61fb60800000000000000
+      internalID: 7778115069548001494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_31
+      rect:
+        serializedVersion: 2
+        x: 2405
+        y: 947
+        width: 129
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0893bebcd787a6240800000000000000
+      internalID: 4785770035722008960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 664
+        width: 158
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dbe075e54d33dcf0800000000000000
+      internalID: -228771785654342695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_33
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 660
+        width: 127
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e753fb6f381300e00800000000000000
+      internalID: 1008860759381194110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_34
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 835
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0067ab65f105810800000000000000
+      internalID: 1751934712403067043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_35
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 660
+        width: 92
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91dc223f762a9fc10800000000000000
+      internalID: 2087878469607410969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_36
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 664
+        width: 157
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730685a5af9d594a0800000000000000
+      internalID: -6587119210678689737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_37
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 835
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c0e1dfc7dfbcb90800000000000000
+      internalID: -7220398864294081488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_38
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 660
+        width: 92
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a55920f0cbb0d40800000000000000
+      internalID: 5551737738318142028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_39
+      rect:
+        serializedVersion: 2
+        x: 2417
+        y: 835
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5759b3783e8894e40800000000000000
+      internalID: 5641190519066039669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_40
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 664
+        width: 26
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfaba4461d02c4650800000000000000
+      internalID: 6218381269194685180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_41
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 660
+        width: 134
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b8d4d8e249560d0800000000000000
+      internalID: -3430172613512688796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_42
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 664
+        width: 75
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78dc41b93e541fd00800000000000000
+      internalID: 1004661035742055815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_43
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 660
+        width: 130
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0300d8cd1ad8ffd60800000000000000
+      internalID: 7926209595524841520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_44
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 612
+        width: 124
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2b182df1db48b40800000000000000
+      internalID: 5441682194143752925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_45
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 660
+        width: 130
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d672579312f656de0800000000000000
+      internalID: -1340543125584271507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_46
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 664
+        width: 26
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52859513adce3a80800000000000000
+      internalID: -8485118547593952675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_47
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 660
+        width: 127
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3a48301bb49fbf0800000000000000
+      internalID: -290117477348367435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_48
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 660
+        width: 130
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db44d39527838e80800000000000000
+      internalID: -8177543902910985257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_49
+      rect:
+        serializedVersion: 2
+        x: 2121
+        y: 664
+        width: 118
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530d302a48b98cd00800000000000000
+      internalID: 993214711791341621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_50
+      rect:
+        serializedVersion: 2
+        x: 2269
+        y: 660
+        width: 121
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762a4b3af608a9520800000000000000
+      internalID: 2709619342793024103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_51
+      rect:
+        serializedVersion: 2
+        x: 2418
+        y: 664
+        width: 26
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c63e19405cc1d440800000000000000
+      internalID: 4958969309907793605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo Unad Color_52
+      rect:
+        serializedVersion: 2
+        x: 2472
+        y: 660
+        width: 130
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88cafd58cf364e70800000000000000
+      internalID: 9099030226951391370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Logo Unad Color_0: 482125918991911579
+      Logo Unad Color_1: -6033383730707601448
+      Logo Unad Color_10: 4567497248076528239
+      Logo Unad Color_11: -1013211735485029502
+      Logo Unad Color_12: -1184021644716476941
+      Logo Unad Color_13: -995412143752681952
+      Logo Unad Color_14: -622548105807702314
+      Logo Unad Color_15: 6080456137813023883
+      Logo Unad Color_16: 5098652567749372663
+      Logo Unad Color_17: -8694963966414612140
+      Logo Unad Color_18: 5820525976653183076
+      Logo Unad Color_19: 6571152131414159601
+      Logo Unad Color_2: 5632263793097432251
+      Logo Unad Color_20: -3941726829623715602
+      Logo Unad Color_21: -6503587196842223324
+      Logo Unad Color_22: -4210295886182230111
+      Logo Unad Color_23: 4000040429006474972
+      Logo Unad Color_24: -3392735790658083494
+      Logo Unad Color_25: -3911349574662526630
+      Logo Unad Color_26: 7040668958418431012
+      Logo Unad Color_27: -3168933334126915938
+      Logo Unad Color_28: -7537379873984327222
+      Logo Unad Color_29: 7818924546268021426
+      Logo Unad Color_3: 5081243036005222229
+      Logo Unad Color_30: 7778115069548001494
+      Logo Unad Color_31: 4785770035722008960
+      Logo Unad Color_32: -228771785654342695
+      Logo Unad Color_33: 1008860759381194110
+      Logo Unad Color_34: 1751934712403067043
+      Logo Unad Color_35: 2087878469607410969
+      Logo Unad Color_36: -6587119210678689737
+      Logo Unad Color_37: -7220398864294081488
+      Logo Unad Color_38: 5551737738318142028
+      Logo Unad Color_39: 5641190519066039669
+      Logo Unad Color_4: -8049546231890640857
+      Logo Unad Color_40: 6218381269194685180
+      Logo Unad Color_41: -3430172613512688796
+      Logo Unad Color_42: 1004661035742055815
+      Logo Unad Color_43: 7926209595524841520
+      Logo Unad Color_44: 5441682194143752925
+      Logo Unad Color_45: -1340543125584271507
+      Logo Unad Color_46: -8485118547593952675
+      Logo Unad Color_47: -290117477348367435
+      Logo Unad Color_48: -8177543902910985257
+      Logo Unad Color_49: 993214711791341621
+      Logo Unad Color_5: -987211258601912178
+      Logo Unad Color_50: 2709619342793024103
+      Logo Unad Color_51: 4958969309907793605
+      Logo Unad Color_52: 9099030226951391370
+      Logo Unad Color_6: 2553392929827343307
+      Logo Unad Color_7: 7065453922824683427
+      Logo Unad Color_8: 2332490129925686315
+      Logo Unad Color_9: -3771270331056601947
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,188 +1,391 @@
+
 using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
-    // Stores the Rigidbody2D component used to control the player's physics.
+    // PLAYER MOVEMENT
     private Rigidbody2D rb2D;
 
-    // Defines the player's horizontal movement speed.
     public float moveSpeed = 5f;
 
-    // Stores the horizontal movement input from the player.
-    float horizontalMovement;
+    private float horizontalMovement;
 
-    // Defines the upward velocity applied when the player jumps.
     public float jumpHeight = 5f;
 
-    // Reference to the Transform used to check if the player is touching the ground.
     public Transform groundCheck;
 
-    // Defines the size of the ground detection area.
     public Vector2 groundCheckSize = new Vector2(0.25f, 0.25f);
 
-    // Specifies which layers are considered ground.
     public LayerMask groundLayer;
 
-    // Indicates whether the player is currently touching the ground.
     private bool isGrounded;
 
     private Animator animator;
 
+    // COINS
     private int coins;
 
     public TMP_Text textCoins;
 
+    // AUDIO
     public AudioSource audioSource;
 
     public AudioClip coinClip;
 
     public AudioClip barrelClip;
 
+    // QUIZ SYSTEM
+    [Header("Quiz System")]
 
-    // Called once when the script is initialized.
+    public LifeManager lifeManager;
+
+    private ObstacleQuiz nearbyObstacle;
+
+    private bool movementEnabled = true;
+
+    private bool knockbackActive;
+
+    // SPIKES CONTACT CONTROL
+    private readonly HashSet<Collider2D> spikeContacts =
+        new HashSet<Collider2D>();
+
+
+    // INITIALIZATION
     void Start()
     {
-        // Gets the Rigidbody2D component attached to the player.
         rb2D = GetComponent<Rigidbody2D>();
+
         animator = GetComponent<Animator>();
+
+        if (lifeManager == null)
+        {
+            lifeManager = FindAnyObjectByType<LifeManager>();
+        }
     }
 
-    // Called once per frame.
+
+    // UPDATE
     private void Update()
     {
-        // Updates the player's facing direction based on horizontal movement.
         CheckFlip();
 
-        // Checks whether the player is touching the ground.
         UpdateGroundedState();
 
-        animator.SetFloat("Horizontal", Mathf.Abs(horizontalMovement));
+        if (animator != null)
+        {
+            animator.SetFloat(
+                "Horizontal",
+                Mathf.Abs(horizontalMovement)
+            );
 
-        animator.SetBool("IsGrounded", isGrounded);
+            animator.SetBool("IsGrounded", isGrounded);
+        }
     }
 
+
+    // COLLISION AND TRIGGER DETECTION
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Checks if the player has collided with an object tagged as "Enemy".
-        if (collision.transform.CompareTag("Coin"))
+        // COIN COLLECTION
+        if (collision.CompareTag("Coin"))
         {
-            audioSource.PlayOneShot(coinClip); // Plays the coin collection sound effect.
-            Destroy(collision.gameObject); // Destroys the coin object upon collision.
-            coins++; // Increments the coin count.
-            textCoins.text = coins.ToString();
+            if (audioSource != null && coinClip != null)
+            {
+                audioSource.PlayOneShot(coinClip);
+            }
+
+            Destroy(collision.gameObject);
+
+            coins++;
+
+            if (textCoins != null)
+            {
+                textCoins.text = coins.ToString();
+            }
         }
 
-        if (collision.transform.CompareTag("Spikes"))
+
+        // SPIKES: LOSE ONE LIFE PER CONTACT
+        if (collision.CompareTag("Spikes"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Reloads the current scene upon collision with spikes.
+            if (spikeContacts.Add(collision))
+            {
+                if (lifeManager != null)
+                {
+                    lifeManager.LoseLife(lifeManager.loseLifeSound);
+                }
+                else
+                {
+                    Debug.LogWarning(
+                        "LifeManager reference is missing!"
+                    );
+                }
+            }
         }
 
-        if (collision.transform.CompareTag("Barrel"))
-        {
-            audioSource.PlayOneShot(barrelClip); // Plays the barrel destruction sound effect.
-            Vector2 knockbackDirection = (rb2D.position - (Vector2)collision.transform.position).normalized; // Calculates the direction of knockback.
-            rb2D.linearVelocity= Vector2.zero; // Resets the player's velocity to zero.
-            rb2D.AddForce(knockbackDirection * 3, ForceMode2D.Impulse); // Applies a knockback force to the player.
 
-            BoxCollider2D[] colliders= collision.gameObject.GetComponents<BoxCollider2D>(); // Gets all BoxCollider2D components on the barrel object. 
+        // BARREL INTERACTION
+        if (collision.CompareTag("Barrel"))
+        {
+            if (audioSource != null && barrelClip != null)
+            {
+                audioSource.PlayOneShot(barrelClip);
+            }
+
+            Vector2 knockbackDirection =
+                (rb2D.position -
+                (Vector2)collision.transform.position).normalized;
+
+            rb2D.linearVelocity = Vector2.zero;
+
+            rb2D.AddForce(
+                knockbackDirection * 3,
+                ForceMode2D.Impulse
+            );
+
+            BoxCollider2D[] colliders =
+                collision.gameObject.GetComponents<BoxCollider2D>();
 
             foreach (BoxCollider2D col in colliders)
             {
-                col.enabled = false; // Disables each BoxCollider2D component on the barrel object.
+                col.enabled = false;
             }
 
-            collision.GetComponent<Animator>().enabled = true;
-            Destroy(collision.gameObject, 0.5f); // Destroys the barrel object after a short delay.
+            Animator barrelAnimator =
+                collision.GetComponent<Animator>();
 
+            if (barrelAnimator != null)
+            {
+                barrelAnimator.enabled = true;
+            }
 
+            Destroy(collision.gameObject, 0.5f);
         }
     }
 
-    // Called at fixed intervals to handle physics calculations.
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (!movementEnabled)
+            return;
+
+        ConquerorQuiz conquerorQuiz =
+            collision.gameObject.GetComponent<ConquerorQuiz>();
+
+        if (conquerorQuiz == null)
+            return;
+
+        // Check that the player lands on top of the enemy.
+        bool landingOnTop =
+            transform.position.y > collision.transform.position.y &&
+            rb2D.linearVelocity.y <= 0.1f;
+
+        if (landingOnTop)
+        {
+            conquerorQuiz.ActivateQuiz();
+        }
+    }
+
+
+    // COLLISION EXIT: RESET SPIKES CONTACT
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Spikes"))
+        {
+            spikeContacts.Remove(collision);
+        }
+    }
+
+
+    // PHYSICS UPDATE
     void FixedUpdate()
     {
-        // Applies horizontal movement while preserving the current vertical velocity.
+        if (knockbackActive)
+            return;
+
+        if (!movementEnabled)
+        {
+            rb2D.linearVelocity = Vector2.zero;
+            return;
+        }
+
         rb2D.linearVelocity = new Vector2(
             horizontalMovement * moveSpeed,
             rb2D.linearVelocity.y
         );
     }
 
-    // Reads horizontal movement input from the Input System.
+
+    // HORIZONTAL MOVEMENT - INPUT SYSTEM
     public void Move(InputAction.CallbackContext context)
     {
-        // Gets the horizontal value from the input action.
-        horizontalMovement = context.ReadValue<Vector2>().x;
+        if (!movementEnabled)
+        {
+            horizontalMovement = 0f;
+            return;
+        }
+
+        horizontalMovement =
+            context.ReadValue<Vector2>().x;
     }
 
-    // Handles the player's jump input.
+
+    // JUMP - INPUT SYSTEM
     public void Jump(InputAction.CallbackContext context)
     {
-        // Stops the method if the jump input was not performed
-        // or if the player is not touching the ground.
-        if (!context.performed || !isGrounded)
+        if (!movementEnabled ||
+            !context.performed ||
+            !isGrounded)
+        {
             return;
+        }
 
-        animator.SetTrigger("Jump");
+        if (animator != null)
+        {
+            animator.SetTrigger("Jump");
+        }
 
-        // Applies upward velocity to make the player jump.
         rb2D.linearVelocity = new Vector2(
             rb2D.linearVelocity.x,
             jumpHeight
         );
     }
 
-    // Draws the ground detection area in the Unity Scene view.
-    private void OnDrawGizmosSelected()
-    {
-        // Sets the Gizmo color to yellow for visibility.
-        Gizmos.color = Color.yellow;
 
-        // Draws a wireframe cube showing the ground detection area.
-        Gizmos.DrawWireCube(groundCheck.position, groundCheckSize);
+    // INTERACT WITH HISTORICAL OBSTACLES
+    public void Interact(InputAction.CallbackContext context)
+    {
+        if (!context.performed || !movementEnabled)
+        {
+            return;
+        }
+
+        if (nearbyObstacle != null)
+        {
+            nearbyObstacle.ActivateQuiz();
+        }
     }
 
-    // Detects whether the player is touching a surface on the ground layer.
+
+    // ENABLE OR DISABLE PLAYER MOVEMENT
+    public void SetMovementEnabled(bool enabled)
+    {
+        movementEnabled = enabled;
+
+        if (!movementEnabled)
+        {
+            horizontalMovement = 0f;
+
+            if (rb2D != null)
+            {
+                rb2D.linearVelocity = Vector2.zero;
+            }
+        }
+    }
+
+
+    // REGISTER NEARBY OBSTACLE
+    public void SetNearbyObstacle(ObstacleQuiz obstacle)
+    {
+        nearbyObstacle = obstacle;
+    }
+
+
+    // CLEAR NEARBY OBSTACLE
+    public void ClearNearbyObstacle(ObstacleQuiz obstacle)
+    {
+        if (nearbyObstacle == obstacle)
+        {
+            nearbyObstacle = null;
+        }
+    }
+
+
+    // GROUND DETECTION VISUALIZATION
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.yellow;
+
+        if (groundCheck != null)
+        {
+            Gizmos.DrawWireCube(
+                groundCheck.position,
+                groundCheckSize
+            );
+        }
+    }
+
+
+    // CHECK IF PLAYER IS GROUNDED
     void UpdateGroundedState()
     {
-        // Checks for overlap between the detection area and the ground layer.
+        if (groundCheck == null)
+        {
+            return;
+        }
+
         isGrounded = Physics2D.OverlapBox(
             groundCheck.position,
             groundCheckSize,
             0,
             groundLayer
         );
+
+        if (isGrounded)
+        {
+            ConquerorQuiz[] conquerors =
+            FindObjectsByType<ConquerorQuiz>();
+
+            foreach (ConquerorQuiz conqueror in conquerors)
+            {
+                conqueror.ResetActivation();
+            }
+        }
     }
 
-    // Flips the player's horizontal scale to face the movement direction.
+
+    // CHANGE PLAYER FACING DIRECTION
     void CheckFlip()
     {
-        // Stops the method if there is no horizontal movement.
         if (horizontalMovement == 0)
+        {
             return;
+        }
 
-        // Determines whether the player is moving to the right.
         bool movingRight = horizontalMovement > 0;
 
-        // Determines whether the player is currently facing right.
         bool facingRight = transform.localScale.x > 0;
 
-        // Flips the player if the movement direction differs from the facing direction.
         if (movingRight != facingRight)
         {
-            // Stores the player's current scale.
-            Vector3 Scale = transform.localScale;
+            Vector3 scale = transform.localScale;
 
-            // Reverses the horizontal scale to change the facing direction.
-            Scale.x *= -1;
+            scale.x *= -1;
 
-            // Applies the updated scale to the player.
-            transform.localScale = Scale;
+            transform.localScale = scale;
         }
+    }
+
+    public void ApplyConquerorKnockback(Vector2 force)
+    {
+        knockbackActive = true;
+
+        horizontalMovement = 0f;
+
+        rb2D.linearVelocity = Vector2.zero;
+
+        rb2D.AddForce(force, ForceMode2D.Impulse);
+
+        StartCoroutine(EndKnockback());
+    }
+
+    private System.Collections.IEnumerator EndKnockback()
+    {
+        yield return new WaitForSeconds(0.5f);
+
+        knockbackActive = false;
     }
 }
